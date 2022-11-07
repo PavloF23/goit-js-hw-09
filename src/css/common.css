@@ -16,3 +16,92 @@ img {
   display: block;
   max-width: 100%;
 }
+
+
+
+/* countdownTimer CSS */
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+  margin-top: 20%;
+  /* transform: translate(0%, 70%); */
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+
+ 
+}
+
+.input {
+  margin-right: 20px;
+  width: 310px;
+  padding: 0 10px;
+
+  font-family: inherit;
+  font-size: 25px;
+  border: 1px solid #bcd0e5;
+  border-radius: 40px;
+  text-align: center;
+
+}
+
+.input:focus {
+  outline: none;
+}
+
+.button {
+  width: 110px;
+  height: 50px;
+
+  font-weight: 600;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+
+  color: #bcd0e5;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid #bcd0e5;
+  border-radius: 40px;
+
+  cursor: pointer;
+
+  transition: color 250ms ease-in-out, background-color 250ms ease-in-out;
+}
+.button:enabled {
+  color: #153104;
+}
+
+.button:enabled:hover,
+.button:enabled:focus {
+  color: #ffffff;
+  background-color: #44d327;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  margin-top: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.value {
+  font-size: 42px;
+
+  text-align: center;
+}
